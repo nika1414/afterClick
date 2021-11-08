@@ -4,7 +4,7 @@ function Nuller() {
 }
 
 let newElement = document.createElement("p");
-let text = document.createTextNode("I am from JS");
+let text = document.createTextNode("Hello, i am created from JS");
 newElement.appendChild(text);
 let element = document.getElementById("app");
 element.appendChild(newElement);
